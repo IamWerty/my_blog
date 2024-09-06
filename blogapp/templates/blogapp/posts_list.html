@@ -1,0 +1,10 @@
+<ul>
+    {% for post in posts_list %}
+    <li>
+        <h4>{{post.title}}</h4>
+        <h6>{{post.content}}</h6>
+        <p>{{post.published_date}}</p>
+        <p>{{post.author}}</p>
+    </li>
+    {% endfor %}
+</ul>
